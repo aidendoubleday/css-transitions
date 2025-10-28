@@ -1,0 +1,51 @@
+body {
+    background-color:brown;
+}
+
+.nav {
+    background-color: rgb(176, 52, 52);
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav a {
+    color:white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    position: relative;
+    top: 0px;
+    transition: 800ms ease-out;
+}
+
+.nav a:hover {
+    background-color: brown;
+    top: -8px;
+}
+
+h1 {
+    text-align:center;
+    color: white;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.gallery img {
+    margin: 10px;
+    border-radius: 10px;
+    width: 200px;
+    transition: 800ms;
+}
+
+.gallery img:hover {
+    transform: scale(140%) rotate(10deg) translate(-10px);
+}
